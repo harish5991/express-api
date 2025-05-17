@@ -3,6 +3,8 @@ const express = require('express');
 const app = express();
 const port = 3000;
 
+const data = {};
+
 app.use(express.json());
 
 // Define a route for GET requests
